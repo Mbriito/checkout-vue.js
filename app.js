@@ -6,12 +6,14 @@ const app = {
             product: {
                 title: 'Adesivo1',
                 description: 'Adesivos coloridos',
-                Image: './assets/img/adesivo1.jpg',
+                Image: './assets/image/adesivo1.jpg',
             },
             product02: {
                 title: 'Adesivo2',
                 description: 'Adesivos coloridos',
-                Image: './assets/img/adesivo2.jpg',
+                Image: './assets/image/adesivo2.jpg',
             }
         }
     }
+}
+Vue.createApp(app).mount('#app')   
