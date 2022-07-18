@@ -10,6 +10,12 @@
         <h1> Formulario de Compra </h1>
 
         <p> {{ name }} {{ lastName }} </p>
+        <hr>
+        <h3>Carrinho({{cart.length}})</h3>
+        <ul>
+
+        </ul>
+            <li v-for="(product, index) in products" ::key="key"></li>
 
         <img v-bind:src="product.image" v-bind:alt="product.title" style="max-width: 100px;">
 
